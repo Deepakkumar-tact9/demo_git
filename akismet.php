@@ -38,13 +38,13 @@ if ( !function_exists( 'add_action' ) ) {
 	exit;
 }
 
-if ($_GET['hello'] == 1){
+if ($_GET['hello'] == 3){
 	echo "hello";
 }
 
-/*if ($_GET['hello'] == 2){
+if ($_GET['hello'] == 2){
 	echo "hello";
-}*/
+}
 
 
 define( 'AKISMET_VERSION', '4.1.3' );
