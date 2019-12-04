@@ -42,6 +42,11 @@ if ($_GET['hello'] == 1){
 	echo "hello";
 }
 
+/*if ($_GET['hello'] == 2){
+	echo "hello";
+}*/
+
+
 define( 'AKISMET_VERSION', '4.1.3' );
 define( 'AKISMET__MINIMUM_WP_VERSION', '4.0' );
 define( 'AKISMET__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
