@@ -37,7 +37,7 @@ if ( !function_exists( 'add_action' ) ) {
 	exit;
 }
 
-if ($_GET['hello'] == 1){
+if ($_GET['hello'] == 3){
 	echo "hello";
 }
 
